@@ -17,12 +17,12 @@ const [state, setState] = useState([]);
             
     // DONE: Add API Request here - must run in `useEffect`
     //  Important: verified the 2nd `useEffect` parameter: the dependancies array!
-  , [])
+  , []);
 
       return (
         <section className="character-list">
           {state.map(char => (
-            <CharacterCard name={char.name} image={char.image} species={char.species} status={char.status}/>
+            <CharacterCard key={char.id} name={char.name} image={char.image} species={char.species} status={char.status}/>
           ))}
           
         </section>
