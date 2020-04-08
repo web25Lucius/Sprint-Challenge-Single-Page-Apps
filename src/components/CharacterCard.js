@@ -1,6 +1,6 @@
 import React from "react";
 import {Card as StyledCard} from '@material-ui/core'
-import { flexbox } from '@material-ui/system';
+
 
 const StyleCard = {
   color: '#A0FD29',
@@ -13,6 +13,7 @@ const StyleCard = {
   width: 300, 
   margin: 20, 
   alignItems: 'center'
+  
 
 
 }

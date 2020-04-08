@@ -17,7 +17,7 @@ const [state, setState] = useState([]);
             
     // DONE: Add API Request here - must run in `useEffect`
     //  Important: verified the 2nd `useEffect` parameter: the dependancies array!
-  , []);
+  , [])
 
       return (
         <section className="character-list">
